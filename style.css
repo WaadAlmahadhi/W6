@@ -1,0 +1,93 @@
+body
+{
+    background-color: rgb(24, 88, 131);
+    font-family: 'Open Sans', sans-serif;
+}
+.container
+{
+    width: 970px;
+    
+}
+#part1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#part2
+{
+    display: inline;
+    color: white;
+}
+#part2 a
+{
+    color: rgb(255, 208, 0);
+}
+#search
+{
+    border-radius:8px ;
+    height: 70px;
+    width:350px ;
+    background-color: rgb(68, 68, 68);
+    box-shadow: 5px 5px black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container-fluid
+{
+    background-color: rgb(53, 140, 207);
+    border-radius: 5px;
+    box-shadow: 3px 3px black;
+    margin-top: 30px;
+
+}
+.nav-link
+{
+    color: white;
+    font-size: x-large;
+    margin-left: 25px;
+    text-align: center;    
+}
+.row
+{   display: flex;
+    padding: 10px;
+    justify-content: center;
+
+}
+.small-col
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+#leftlist
+{
+    list-style: ">>";
+}
+#leftlist a
+{
+    color: white; 
+}
+.big-col
+{   width: 700px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+#yelist
+{
+    list-style: none;
+    color: rgb(255, 208, 0);
+    font-style: italic;
+    margin-right: 25px;
+}
+span
+{   font-style: normal;
+    color: white;
+}
